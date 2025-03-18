@@ -9,10 +9,10 @@ The scripts in this file are experamental scripts for scanning your project perm
 
 # Usage
 1. Enumerate permissions in the project
-`python3 enumerate_member_permissions.py --project-id test-project-12345`
+`python3 enumerate-permissions.py --project-id test-project-12345`
 2. Scan the enumerated permissions for privilege escalation vulnerabilities
-`python3 check_for_privesc.py`
+`python3 privilege-escalation-scanner.py`
 3. Review the results
-member_privileges.json – All members and their associated privileges
-privilege_escalation_methods.md – All detected privilege escalation methods
-setIamPolicy_methods.md – All detected setIamPolicy methods
+member-privileges.md – All members and their associated privileges
+privilege-escalation-methods.md – All detected privilege escalation methods
+setIamPolicy-methods.md – All detected setIamPolicy methods
