@@ -16,3 +16,22 @@ The scripts in this file are experamental scripts for scanning your project perm
 member-privileges.md – All members and their associated privileges
 privilege-escalation-methods.md – All detected privilege escalation methods
 setIamPolicy-methods.md – All detected setIamPolicy methods
+
+# Current Privilege Escalation Methods
+cloudbuilds.builds.create
+deploymentmanager.deployments.create
+iam.roles.update
+iam.serviceAccounts.getAccessToken
+iam.serviceAccountKeys.create
+iam.serviceAccounts.implicitDelegation
+iam.serviceAccounts.signBlob
+iam.serviceAccounts.signJwt
+cloudfunctions.functions.create
+cloudfunctions.functions.update
+compute.instances.create
+run.services.create
+cloudscheduler.jobs.create
+orgpolicy.policy.set
+storage.hmacKeys.create
+serviceusage.apiKeys.create
+serviceusage.apiKeys.list
